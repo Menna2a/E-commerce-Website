@@ -166,8 +166,8 @@ function removefav(id) {
 
 function regenerateCarousel(favprods) {
     let carouselInner = document.querySelector('.carousel-inner');
-    carouselInner.innerHTML = ''; 
-    generateFavs(favprods); 
+    carouselInner.innerHTML = '';
+    generateFavs(favprods);
 }
 
 
