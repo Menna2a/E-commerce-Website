@@ -44,7 +44,7 @@ let products = [
 function draw(prods) {
     let y = prods.map(item => {
         return `
-        <div class="card col-lg-3 col-md-6 s-iteam product-item">
+        <div class="card col-lg-3 col-md-4 s-iteam product-item">
             <img src="${item.imageUrl}" class="card-img-top product-item-img" alt="...">
             <div class="card-body product-item-desc">
               <h5 class="card-title">${item.title}</h5>
