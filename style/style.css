@@ -257,8 +257,9 @@ ul#userinfo li .badge {
 }
 
 .hero-img {
-  background-image: url("/images/hero2.png");
+  background-image: url("https://images.unsplash.com/photo-1522338242992-e1a54906a8da?q=80&w=2788&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
+  background-position: center;
   height: 80vh;
   transition: transform 0.3s;
 }
