@@ -133,6 +133,7 @@ ul#userinfo li .badge {
 
 .carts_products {
   position: absolute;
+  z-index: 10;
   width: 255px;
   transform: translate(-30%, 0%);
   background-color: #c5bdb750;
@@ -148,7 +149,10 @@ ul#userinfo li .badge {
 
 .carts_products div p {
   border-radius: 5px;
-  background-color: #f9f7f4;
+  /* width: 80%; */
+  /* display: inline-block; */
+  color: #fff;
+  /* background-color: #f9f7f4a7; */
 }
 
 .carts_products a {
@@ -253,7 +257,7 @@ ul#userinfo li .badge {
 }
 
 .hero-img {
-  background-image: url("/images/heroimg.jpg");
+  background-image: url("/images/hero2.png");
   background-size: cover;
   height: 80vh;
   transition: transform 0.3s;

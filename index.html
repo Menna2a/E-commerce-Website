@@ -1,41 +1,67 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style/style.css">
-  <link rel="stylesheet" type="text/css" href="style/all.css">
-  <title>Home</title>
-</head>
-<body style="background-color: #f0ebe8;">
-<header>
-    <nav class="navbar navbar-expand-lg text-dark ">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link rel="stylesheet" type="text/css" href="style/all.css" />
+    <title>Home</title>
+  </head>
+  <body style="background-color: #f0ebe8">
+    <header>
+      <nav class="navbar navbar-expand-lg text-dark">
         <div class="container-fluid">
           <a class="navbar-brand px-3" href="index.html">
-            <img src="images/black logo vert copy.png" alt="Logo" height="20" class="d-inline-block align-text-center mb-1" style="transform: scale(1.3);">
-            
+            <img
+              src="images/black logo vert copy.png"
+              alt="Logo"
+              height="20"
+              class="d-inline-block align-text-center mb-1"
+              style="transform: scale(1.3)"
+            />
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 ms-lg-auto">
-              
               <li class="nav-item mx-lg-2">
-                <a class="nav-link active text-dark" aria-current="page" href="index.html"><strong> Home</strong></a>
+                <a
+                  class="nav-link active text-dark"
+                  aria-current="page"
+                  href="index.html"
+                  ><strong> Home</strong></a
+                >
               </li>
               <li class="nav-item mx-lg-2">
                 <a class="nav-link text-dark" href="#">About Us</a>
               </li>
               <li class="nav-item dropdown mx-lg-2">
-                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a
+                  class="nav-link dropdown-toggle text-dark"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Shop
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Candles</a></li>
                   <li><a class="dropdown-item" href="#">Sets</a></li>
-                  <li><hr class="dropdown-divider"></li>
+                  <li><hr class="dropdown-divider" /></li>
                   <li><a class="dropdown-item" href="#">Gifts</a></li>
                 </ul>
               </li>
@@ -44,81 +70,86 @@
               </li>
             </ul>
             <ul class="navbar-nav mb-2 mb-lg-0 ms-lg-auto">
-            <div id="links">
-            <a href="signup.html" class="btn btn-outline-dark">Sign Up</a>
-            <a href="login.html" class="btn btn-dark mx-2">Log In</a>
-            </div>
-          </ul>
-          <ul id="userinfo" class="ml-auto mt-2 ">
-            <li><a href="" id="user"></a></li>
-            
-            <li class="shopping_cart">
-              <i class="fa-solid fa-cart-shopping"></i>
-              <i class="fa-solid fa-addition"></i>
-
-              <span class="position-absolute badge rounded-circle"  style="display: none;"></span>
-          
-            <div class="carts_products" style="display: none;"> 
-              <div>
-                
+              <div id="links">
+                <a href="signup.html" class="btn btn-outline-dark">Sign Up</a>
+                <a href="login.html" class="btn btn-dark mx-2">Log In</a>
               </div>
-              <a href="cart.html">View products</a>
-            </div>
-          </li>
-          <a class="btn btn-dark text-light ms-3 log_out mb-5">Log Out</a>
+            </ul>
+            <ul id="userinfo" class="ml-auto mt-2">
+              <li><a href="" id="user"></a></li>
 
-          </ul>
+              <li class="shopping_cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-addition"></i>
 
-          
+                <span
+                  class="position-absolute badge rounded-circle"
+                  style="display: none"
+                ></span>
+
+                <div class="carts_products" style="display: none">
+                  <div></div>
+                  <a href="cart.html">View products</a>
+                </div>
+              </li>
+
+              <a class="btn btn-dark text-light ms-3 log_out mb-5">Log Out</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="hero-img position-relative">
+        <div class="overlay">
+          <div class="main-content">
+            <h1>Discover Your Signature Look with Exclusive Beauty Brands !</h1>
+            <a
+              class="btn btn-dark text-light fs-5 mx-2 my-2"
+              onClick="document.getElementsByClassName('Best-Sellers')[0].scrollIntoView();"
+              >Explore Now</a
+            >
+            <a class="btn btn-light text-dark fs-5 mx-2 my-2">About Us</a>
+          </div>
         </div>
       </div>
-    </nav>
-</header>
-<main>
-<div class="hero-img position-relative">
-<div class="overlay">
-  <div class="main-content">
-    <h1>Discover Your Signature Look with Exclusive Beauty Brands !</h1>
-    <a class="btn btn-dark text-light fs-5 mx-2 my-2" onClick="document.getElementsByClassName('Best-Sellers')[0].scrollIntoView();">Explore Now</a>
-    <a class="btn btn-light text-dark fs-5 mx-2 my-2">About Us</a>
-  </div>
-</div>
-</div>
-</main>
+    </main>
 
-<section class="Best-Sellers">
-  <div class="s" >
-      
+    <section class="Best-Sellers">
+      <div class="s">
         <p>Best Sellers</p>
-      
-  </div>
-</section>
-<section class="filtering">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-12">
-        <input type="text" class="form-control searcht" id="search" placeholder="Search">
       </div>
-      <div class="col-lg-6 col-md-12">
+    </section>
+    <section class="filtering">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <input
+              type="text"
+              class="form-control searcht"
+              id="search"
+              placeholder="Search"
+            />
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <select
+              class="form-select searchop"
+              aria-label="Default select example"
+            >
+              <option selected value="Name">Shop By Name</option>
+              <option value="Category">Shop By Category</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="mb-5 container">
+        <div class="row gap-5 pt-5 justify-content-center products"></div>
+      </div>
+    </section>
 
-        <select class="form-select searchop" aria-label="Default select example">
-          <option selected value="Name">Shop By Name</option>
-          <option value="Category">Shop By Category</option>
-        </select>
-       
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-    <div class=" mb-5 container">
-        <div class="row gap-5 pt-5 justify-content-center products" >
-          
-        </div> 
-      </div>
-</section>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/index.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
